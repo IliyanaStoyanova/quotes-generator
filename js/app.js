@@ -1,6 +1,7 @@
 const btnQuote = document.getElementById('newQuote');
 const textQuote = document.getElementById('bodyQuote');
 const authorQuote = document.getElementById('authorQuote');
+const copyQuote = document.getElementById('copyQuote');
 
 function addLoading() {
   textQuote.classList.remove('quote');
@@ -25,5 +26,9 @@ const randomQuote = async () => {
     throw new Error('There has been a problem with your fetch operation:', error);
   }
 }
+
+copyQuote.addEventListener('click', () => {
+  navigator.clipboard.writeText(`${textQuote.innerText} - ${authorQuote.innerText}`);
+});
 
 btnQuote.addEventListener('click', randomQuote);
