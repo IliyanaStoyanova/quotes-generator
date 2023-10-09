@@ -15,8 +15,11 @@
   left: 1rem;
 }
 
-#body-quote:before, #body-quote:after {
-  content: '\0022';
+.quote::before {
+  content: open-quote;
+}
+.quote::after {
+  content: close-quote;
 }
 
 .info-option button:hover {
