@@ -26,3 +26,4 @@ You can copy and text-to-speech this quote.
 ### Screenshots
 
 ---
+![quote_generator](https://github.com/IliyanaStoyanova/quotes-generator/assets/52379824/719c5081-95cc-49ba-a42c-2292b6e96e5d)
