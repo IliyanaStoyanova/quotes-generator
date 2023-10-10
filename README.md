@@ -1,6 +1,6 @@
 # Quotes Generator
 
-## This is website for quotes generator.
+## This is the website for quotes generator.
 
 ### I use on the website:
 
@@ -26,4 +26,5 @@ You can copy and text-to-speech this quote.
 ### Screenshots
 
 ---
-![quote_generator](https://github.com/IliyanaStoyanova/quotes-generator/assets/52379824/719c5081-95cc-49ba-a42c-2292b6e96e5d)
+![quote_generator](https://github.com/IliyanaStoyanova/quotes-generator/assets/52379824/695c073e-e068-4955-b242-f7c04ee14a99)
+
